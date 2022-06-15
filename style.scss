@@ -1,0 +1,243 @@
+@import './extensoes/source/animate.css';
+
+// Cores do projeto
+ $Pri : #EDD2F3;
+ $Sec : #FFFCDC;
+ $Asen: #84DFFF;
+ $Func: #516BEB;
+
+ body{
+     background-image: radial-gradient(circle, #1f285f, #3b2864, #532767, #6a2366, #7f1f62);
+     background-size: cover;
+     overflow-x: hidden;
+     width:100%;
+ }
+
+ #texto-prin{
+    color: #fff;
+    text-shadow: 1vw 1vw 1vw #000, 0 0 3vw #24ff00, 0 0 3vw #24ff00, 0 0 3vw #24ff00;
+     position:relative;
+     top:450px;
+   
+ }
+
+ #Bloco1{
+     display: flex;
+     width:100%;
+     height:500px ; 
+     background-color: $Sec;
+     background-image: url(./img/space-gif.gif);
+     background-size: cover;
+     justify-content: center;
+    img{
+            position: absolute;
+            align-self: center;
+            max-width: 60%;
+            max-height: 60%;
+            border-radius: 50%;
+            border: 5px solid $Func;
+       } 
+       img:hover{
+        animation:headShake;
+        animation-duration:2s;
+               }
+ }
+
+ #bloco2{
+    display: flex;
+    background-color:$Pri;
+    text-align: justify;
+    vertical-align: middle;
+    border-radius: 40px;
+    font-size:1rem;
+    b{
+        color:$Func;
+    }
+    #div-icon{
+        margin:auto;
+        img{
+            padding:10px;
+            max-width:60%;  
+        } 
+     }
+     img:hover{
+        animation:tada;
+        animation-duration: 2s;
+    }
+    
+     #texto{
+        border-left: 5px solid $Asen;
+        margin: auto;
+        padding-left: 10px;
+     }
+ }
+ 
+ #Hobbies{
+     display:flex;
+     flex-wrap: wrap;
+     justify-content:center;
+     border-top-right-radius:30px;
+     border-top-left-radius: 30px;
+     b{
+         color:$Func;
+     }
+ }
+
+.card{
+    margin: 20px;
+    background-color: $Sec;
+    box-shadow: 0 0 1em black;
+    transition: all .2s ease-in-out;
+    img{
+        align-self: center;
+    }
+    .card-body{
+        border-bottom:5px solid $Asen;
+    }
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+ #formacao{
+     display: flex;
+     flex-wrap: wrap;
+     font-size: 1rem;
+     border-top-right-radius:30px;
+     border-top-left-radius: 30px;
+     .dropdown{
+        width:100%;
+     }
+     .btn-secondary{
+        background-color: $Func;
+        margin: 10px;
+        width:100%;
+     }
+     .dropdown-menu{
+        width:100%;
+        padding:10px;
+        color:whitesmoke;
+        background-image: url(./img//astronaut-background.png);
+        background-size: cover;
+     }
+ }
+
+ #objetivo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    background-image: url(./img/space.gif);
+    background-size: auto;
+    img{
+        max-width:20%;
+    }
+    #text-neon{
+        font-size:2vw;
+        align-self: center;
+        color: #fff;
+        text-shadow: 1vw 1vw 1vw #000, 0 0 3vw #24ff00, 0 0 3vw #24ff00, 0 0 3vw #24ff00;
+    }
+}
+#experience{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    b{
+        color:$Func;
+    }
+}
+#riachuelo{
+    display:flex;
+    width: 85%;
+    height: auto;
+    h2{
+        color: white;
+        text-shadow: 2px 2px 4px #000000; 
+    }
+    p{
+        font-size:1.5rem;
+        color: white;
+        text-shadow: 2px 2px 4px #000000; 
+    }
+}
+.Bloco3{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#email{
+    background-color: $Pri;
+    border-right:5px solid $Asen;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    width: 40rem;
+    height:300px;
+    b{
+        color:$Func;
+        text-decoration: underline $Asen;
+    }
+    button{
+        background-color: $Func;
+    }
+}
+
+#contato{
+    background-color: $Pri;
+    border-right:5px solid $Asen;
+    border-radius: 30px;
+    text-align:left;
+    padding: 10px;
+    margin: 10px;
+    width: 40rem;
+    height:300px;
+    text-decoration: underl $Func 3px;
+    b{
+        align-self: center;
+        color:$Func;
+        text-decoration: underline $Asen;
+    }
+}
+#social{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    b{
+        color:$Func;
+        text-decoration: underline $Asen;
+    }
+    img{
+        margin: 20px;
+        max-width: 5%;
+       }
+       img:hover{
+           animation:pulse;
+           animation-duration: 2s;
+       }
+}
+
+#cv{
+    text-align: center;
+    vertical-align: middle;
+    background-image: url(./img/space2.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 3vw;
+    color:white;
+    background-color:$Pri;
+    width:100%;
+    height:200px;
+}
+
+.B-flutuante{
+	top:85%;
+	margin-left:85%;
+	padding-right:5%;
+	position:fixed;
+    z-index:1000;
+    img:hover{
+        animation:pulse;
+        animation-duration: 2s;
+    }
+}
