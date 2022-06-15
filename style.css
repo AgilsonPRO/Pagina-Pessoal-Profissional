@@ -1,0 +1,318 @@
+@import url(c:\xampp\htdocs\ProjetoVida\extensoes\source\animate.css);
+body {
+  background-image: radial-gradient(circle, #1f285f, #3b2864, #532767, #6a2366, #7f1f62);
+  background-size: cover;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+#texto-prin {
+  color: #fff;
+  text-shadow: 1vw 1vw 1vw #000, 0 0 3vw #24ff00, 0 0 3vw #24ff00, 0 0 3vw #24ff00;
+  position: relative;
+  top: 450px;
+}
+
+#Bloco1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-color: #FFFCDC;
+  background-image: url(./img/space-gif.gif);
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Bloco1 img {
+  position: absolute;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 60%;
+  max-height: 60%;
+  border-radius: 50%;
+  border: 5px solid #516BEB;
+}
+
+#Bloco1 img:hover {
+  -webkit-animation: headShake;
+          animation: headShake;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+#bloco2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #EDD2F3;
+  text-align: justify;
+  vertical-align: middle;
+  border-radius: 40px;
+  font-size: 1rem;
+}
+
+#bloco2 b {
+  color: #516BEB;
+}
+
+#bloco2 #div-icon {
+  margin: auto;
+}
+
+#bloco2 #div-icon img {
+  padding: 10px;
+  max-width: 60%;
+}
+
+#bloco2 img:hover {
+  -webkit-animation: tada;
+          animation: tada;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+#bloco2 #texto {
+  border-left: 5px solid #84DFFF;
+  margin: auto;
+  padding-left: 10px;
+}
+
+#Hobbies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+#Hobbies b {
+  color: #516BEB;
+}
+
+.card {
+  margin: 20px;
+  background-color: #FFFCDC;
+  -webkit-box-shadow: 0 0 1em black;
+          box-shadow: 0 0 1em black;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.card img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.card .card-body {
+  border-bottom: 5px solid #84DFFF;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#formacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 1rem;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+#formacao .dropdown {
+  width: 100%;
+}
+
+#formacao .btn-secondary {
+  background-color: #516BEB;
+  margin: 10px;
+  width: 100%;
+}
+
+#formacao .dropdown-menu {
+  width: 100%;
+  padding: 10px;
+  color: whitesmoke;
+  background-image: url(./img//astronaut-background.png);
+  background-size: cover;
+}
+
+#objetivo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: url(./img/space.gif);
+  background-size: auto;
+}
+
+#objetivo img {
+  max-width: 20%;
+}
+
+#objetivo #text-neon {
+  font-size: 2vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #fff;
+  text-shadow: 1vw 1vw 1vw #000, 0 0 3vw #24ff00, 0 0 3vw #24ff00, 0 0 3vw #24ff00;
+}
+
+#experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#experience b {
+  color: #516BEB;
+}
+
+#riachuelo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85%;
+  height: auto;
+}
+
+#riachuelo h2 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#riachuelo p {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.Bloco3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#email {
+  background-color: #EDD2F3;
+  border-right: 5px solid #84DFFF;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  width: 40rem;
+  height: 300px;
+}
+
+#email b {
+  color: #516BEB;
+  -webkit-text-decoration: underline #84DFFF;
+          text-decoration: underline #84DFFF;
+}
+
+#email button {
+  background-color: #516BEB;
+}
+
+#contato {
+  background-color: #EDD2F3;
+  border-right: 5px solid #84DFFF;
+  border-radius: 30px;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  width: 40rem;
+  height: 300px;
+  -webkit-text-decoration: underl #516BEB 3px;
+          text-decoration: underl #516BEB 3px;
+}
+
+#contato b {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #516BEB;
+  -webkit-text-decoration: underline #84DFFF;
+          text-decoration: underline #84DFFF;
+}
+
+#social {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#social b {
+  color: #516BEB;
+  -webkit-text-decoration: underline #84DFFF;
+          text-decoration: underline #84DFFF;
+}
+
+#social img {
+  margin: 20px;
+  max-width: 5%;
+}
+
+#social img:hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+#cv {
+  text-align: center;
+  vertical-align: middle;
+  background-image: url(./img/space2.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+  font-size: 3vw;
+  color: white;
+  background-color: #EDD2F3;
+  width: 100%;
+  height: 200px;
+}
+
+.B-flutuante {
+  top: 85%;
+  margin-left: 85%;
+  padding-right: 5%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.B-flutuante img:hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+/*# sourceMappingURL=style.css.map */
