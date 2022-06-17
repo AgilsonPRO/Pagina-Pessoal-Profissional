@@ -41,6 +41,9 @@
     
     <body>
       <br>
+      <div class="container" id="indice">
+      <h3><b>Formação Acadêmica:</b></h3>
+      </div>
    <section>
      <div class="container" id="formacao">
   <div class="dropdown">
@@ -127,8 +130,11 @@
              </div>
              </div>
              <br>
+      <div class="container" id="indice">
+      <h3><b>Objetivos Profissionais:</b></h3>
+      </div>
         <section>
-            <div class="container" id="objetivo">
+            <div class="container" id="objetivo"> 
             <img src="./img/vision.png"  >
 
                 <ul id="text-neon">
@@ -152,6 +158,10 @@
              </div>
          </section>
          <br>
+         
+      <div class="container" id="indice">
+      <h3><b>Experiência de trabalho:</b></h3>
+      </div>
         <section>
             <div class="container" id="experience">
             <div class="card" style="width: 18rem;">
@@ -170,7 +180,7 @@
                 <div class="card" style="width: 18rem;">
                     <img class="animate__animated animate__pulse animate__infinite" src="./img/data-analytics.png"  alt="..."  width="100px">
                     <div class="card-body">
-                    <p class="card-text"><p><b>RESULTADOS:</b></p>Durenate os anos de atuação sem estive entre <b>os 5 melhores</b> resultados da regional. Consegui promover 2 líderados a posição de líder em outras lojas. </p></div>
+                    <p class="card-text"><p><b>RESULTADOS:</b></p>Durante os anos de atuação sem estive entre <b>os 5 melhores</b> resultados da regional. Consegui promover 2 líderados a posição de líder em outras lojas. </p></div>
                 </div>
                 <div id="riachuelo">
                 <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -232,11 +242,14 @@
              </div>
           <br>
         <section>
+      <div class="container" id="indice">
+      <h3><b>Hábitos pessoais:</b></h3>
+      </div>
              <div class="container" id="Hobbies" >
                 <div class="card" style="width: 18rem;">
                     <img src="./img/books.jpg"  alt="..." width="100%">
                     <div class="card-body">
-                    <p class="card-text"><p><b>LEITURA:</b></p>Leio em média 2 livros por mês. Meus assuntos favoritos são: <b>dramas polícias</b>, <b>Aventuras marítimas</b> e <b>ficção</b>.</p>
+                    <p class="card-text"><p><b>LEITURA:</b></p>Leio em média 2 livros por mês. Meus assuntos favoritos são: <b>dramas políciais</b>, <b>Aventuras marítimas</b> e <b>ficção</b>.</p>
                     </div>
                 </div>
 
@@ -345,10 +358,10 @@ Preencha todos os campos.
     ScrollReveal().reveal('#email', { delay: 1500 },{ reset: true });
     ScrollReveal().reveal('#contato', { delay: 2000 },{ reset: true });
     ScrollReveal().reveal('#social', { delay: 2000 },{ reset: true });
-				ScrollReveal().reveal('.B-flutuante', { delay: 2000 },{ reset: true });
-	</script>
-        
-    </body>
+		ScrollReveal().reveal('.B-flutuante', { delay: 2000 },{ reset: true });
+    ScrollReveal().reveal('#indice', { delay: 2000 },{ reset: true });
+	</script>     
+ </body>
 				<footer>
          <div id="cv">
               <br>
