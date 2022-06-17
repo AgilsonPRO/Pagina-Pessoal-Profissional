@@ -11,6 +11,12 @@
      background-size: cover;
      overflow-x: hidden;
      width:100%;
+     text-align:right;
+ }
+
+ #indice{
+    color:$Func;
+    text-decoration: underline $Asen;
  }
 
  #texto-prin{
@@ -223,7 +229,7 @@
     background-image: url(./img/space2.jpg);
     background-size: cover;
     font-family: sans-serif;
-    font-size: 3vw;
+    font-size: 1.5rem;
     color:white;
     background-color:$Pri;
     width:100%;
