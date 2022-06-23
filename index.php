@@ -180,7 +180,7 @@
                 <div class="card" style="width: 18rem;">
                     <img class="animate__animated animate__pulse animate__infinite" src="./img/data-analytics.png"  alt="..."  width="100px">
                     <div class="card-body">
-                    <p class="card-text"><p><b>RESULTADOS:</b></p>Durante os anos de atuação sem estive entre <b>os 5 melhores</b> resultados da regional. Consegui promover 2 líderados a posição de líder em outras lojas. </p></div>
+                    <p class="card-text"><p><b>RESULTADOS:</b></p>Durante os anos de atuação sempre estive entre <b>os 5 melhores</b> resultados da regional. Consegui promover 2 líderados a posição de líder em outras lojas. </p></div>
                 </div>
                 <div id="riachuelo">
                 <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -236,7 +236,7 @@
              <div class="container" id="Bloco2">
              <div id="div-icon"><img src="./img/tourist.png" ></div>        
              <div id="texto">
-                Me considero uma pessoa <b>inteligente e dedicado</b>. Divido bem o meu dia com espaços de tempo para o <b>trabalho</b> e <b>atividades pessoais</b>
+                Me considero uma pessoa <b>inteligente e dedicado</b>. Divido bem o meu dia com espaços de tempo para o <b>trabalho</b> e <b>atividades pessoais</b>.
                 Penso que o sucesso se conquista com o <b>equilibrio</b> entre o pessoal e o profissional. abaixo estão algumas atividades que gosto de fazer no meu <b>tempo livre.</b>
              </div>
              </div>
@@ -263,7 +263,7 @@
                 <div class="card" style="width: 18rem;">
                     <img  src="./img/cinema.jpg"  alt="..."  width="100%">
                     <div class="card-body">
-                    <p class="card-text"><p><b>CINEMA:</b></p>Acompanho todas as <b>notícias</b> e <b>novidades</b>  sobre os filmes que estão sendo produzidos além de sempre asistir os principais lançamentos.</p>
+                    <p class="card-text"><p><b>CINEMA:</b></p>Acompanho todas as <b>notícias</b> e <b>novidades</b>  sobre os filmes que estão sendo produzidos além de sempre assistir os principais lançamentos.</p>
                     </div>
                 </div>
             </div>
