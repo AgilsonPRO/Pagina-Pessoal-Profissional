@@ -15,15 +15,16 @@
  }
 
  #indice{
-    color:$Func;
+    color:white;
     text-decoration: underline $Asen;
  }
 
  #texto-prin{
     color: #fff;
-    text-shadow: 1vw 1vw 1vw #000, 0 0 3vw #24ff00, 0 0 3vw #24ff00, 0 0 3vw #24ff00;
+     text-shadow: 1vw 1vw 1vw #000, 0 0 3vw #24ff00, 0 0 3vw #24ff00, 0 0 3vw #24ff00;
      position:relative;
      top:450px;
+    font-size: 1.5rem;
    
  }
 
@@ -63,7 +64,7 @@
         margin:auto;
         img{
             padding:10px;
-            max-width:60%;  
+            max-width:100%;  
         } 
      }
      img:hover{
@@ -215,7 +216,8 @@
     }
     img{
         margin: 20px;
-        max-width: 5%;
+        width:50px;
+        max-width:100%;
        }
        img:hover{
            animation:pulse;

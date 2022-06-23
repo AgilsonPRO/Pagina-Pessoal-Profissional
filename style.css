@@ -8,7 +8,7 @@ body {
 }
 
 #indice {
-  color: #516BEB;
+  color: white;
   -webkit-text-decoration: underline #84DFFF;
           text-decoration: underline #84DFFF;
 }
@@ -18,6 +18,7 @@ body {
   text-shadow: 1vw 1vw 1vw #000, 0 0 3vw #24ff00, 0 0 3vw #24ff00, 0 0 3vw #24ff00;
   position: relative;
   top: 450px;
+  font-size: 1.5rem;
 }
 
 #Bloco1 {
@@ -73,7 +74,7 @@ body {
 
 #bloco2 #div-icon img {
   padding: 10px;
-  max-width: 60%;
+  max-width: 100%;
 }
 
 #bloco2 img:hover {
@@ -285,7 +286,8 @@ body {
 
 #social img {
   margin: 20px;
-  max-width: 5%;
+  width: 50px;
+  max-width: 100%;
 }
 
 #social img:hover {
